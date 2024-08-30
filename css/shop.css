@@ -1,0 +1,162 @@
+.shop__our{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our__shop_h3{
+    font-family:"Readex Pro";
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+}
+.shop__poragraf{
+    display: flex;
+    margin-top: 20px;
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}
+.shop{
+    display: flex;
+    margin-top: 40px;
+}
+.produkts__shop{
+    display: flex;
+    margin-top: 56px;
+    gap: 16px; 
+}
+.belt__macbook{
+    display: flex;
+    flex-direction: column;
+}
+.belt__macbook{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+.prace__on__belt{
+    justify-content: center;
+    align-items: center;
+}
+.mac__true__lapton:hover{
+    transform: scale(1.5);
+}
+.belt__down{
+    justify-content: center;
+    align-items: center;
+}
+.ipad__iphone{
+    display: flex;
+    gap: 16px;  
+}
+.belt__macbook{
+    display: flex;
+}
+.mac__down,.belt__down,.iphone__down,.ipad__downed{
+    font-family:"Readex Pro";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: right;
+    color: #000;
+}
+.prace__on__produkt,.prace__on__belt,.iphone__praice,.ipad__praced{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 128%;
+    text-align: right;
+    color: #000;
+}
+.iphone__praice{
+    display: flex;
+    justify-content: center;
+}
+.iphone__down{
+    display: flex;
+    justify-content: center;
+}
+.iphone__shop{
+    display: flex;
+    margin-top: 143px;
+}
+.mac__true__lapton{
+    justify-content: end;
+    width: 639px;
+    height: 472px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+}
+.belt{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 639px;
+    height: 270px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+}
+.iphone{ 
+    width: 312px;
+    height: 792px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+}
+.ipad__2{
+    width: 312px;
+    height: 792px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+}
+.ipad__shop{
+    display: flex;
+    margin-top: 115px;
+}
+.ipad__praced{
+   display: flex;
+   justify-content: center;
+}
+.ipad__downed{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:1190px){
+    .produkts__shop{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:685px){
+    .our__shop_h3{
+        font-size: 25px;
+    }
+    .ipad__iphone{
+        width: 320px;
+        flex-wrap: wrap;
+    }
+    .img__mac__true{
+        width: 200px;
+        height: 200px;
+    }
+     .mac__down{
+        font-size: 20px;
+     }
+     .prace__on__produkt{
+         font-size: 30px;
+     }
+    .belt{
+        width: 340px;
+        height: 250px;
+    }
+    .belt__img{
+        width: 200px;
+        height: 250px;
+    }
+    .mac__true__lapton{
+        width: 345px;
+        height: 360px;
+    }
+    .belt__down{
+        font-size: 28px;
+    }
+}

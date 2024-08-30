@@ -1,0 +1,32 @@
+.foot__basement{
+    display: flex;
+    justify-content: space-around;
+}
+.basement__right-title{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000;
+}
+.basement__left{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000;
+}
+@media(max-width:860px){
+    .basement__left{
+        font-size: 10px;
+    }
+    .basement__right{
+        width: 10px;
+    }
+    .basement__right-title{
+        font-size: 10px;
+    }
+    .bacement__png{
+        width: 10px;
+    }
+}

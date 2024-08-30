@@ -1,0 +1,60 @@
+
+.hero__text{
+    margin-left: 54px;
+}
+.hero{
+    margin-top: 60px;
+
+}
+.hero__content{
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background: #dce5e2;
+}
+.hero__title{
+    font-family:"Readex Pro";
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 120%;
+    color: #000;
+}
+.hero__discription{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000;
+}
+.hero__btn{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #000;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 200px;
+    width: 170px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+}
+@media(max-width:1190px){
+    .hero__title{
+      font-size: 42px;
+    }
+}
+@media(max-width:980px){
+    .hero__content{
+    flex-wrap: wrap;
+     }
+}
+@media(max-width:650px){
+    .hero__img{
+      width: 200px;
+      height: 220px;
+    }
+}

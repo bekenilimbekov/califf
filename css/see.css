@@ -1,0 +1,57 @@
+.see{
+    display: flex;
+    margin-top: 40px;
+}
+.sees__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sees__titles{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+}
+.sees__discription{
+    font-family:"Readex Pro";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 129%;
+    color: #000;
+}
+.sees__tovars{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: center;
+}
+.macbook__item,.time__item,.macbook__m2,.ipad{
+    font-family:"Readex Pro";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    color: #000;
+}
+.macbook__poragraf,.time__poragraf,.macbook__m2__poragraf,.ipad__poragraf{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #4b4b4b;
+}
+.macbook__praice,.time__praice,.macbook__m2,.ipad__praice{
+    font-family:"Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000;
+}
+@media(max-width:1115px){
+    .sees__tovars{
+        order: calc(2);
+        flex-wrap: wrap;
+    }
+}

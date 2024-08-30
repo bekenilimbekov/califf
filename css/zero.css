@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1250px;
+    margin: auto;
+}
+.body{
+  font-family: "Readex Pro","Inter", sans-serif;
+  font-style: normal;
+}
+.container__title{
+    padding-top: 50px;
+    margin-top: 60px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container__title{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:1300px){
+    .container{
+        margin: 20px;
+    }
+}
+/* .container {
+    overflow: hidden;
+  } */

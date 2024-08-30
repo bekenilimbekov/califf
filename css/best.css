@@ -1,0 +1,117 @@
+.best{
+    display: flex;
+    padding-top: 47px;
+}
+.best__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.best__titles{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+}
+.best__discription{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 129%;
+    color: #000;
+}
+.shop__tovar-three{
+    display: flex;
+    margin-top: 56px;
+}
+.shop__titles{
+    display: flex;
+    gap: 27px;
+}
+.clock__discription,.nout__discription,.macb__discription{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 129%;
+    text-align: center;
+    color: #000;
+    margin-top: 41px;
+    align-items: center;
+    justify-content: center;
+}
+.clock__titles,.nout__tiles,.macb__tiles{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+.clock__btn,.nout__btn,.macb__btn{
+    border: 1px solid #000;
+    border-radius: 200px;
+    padding: 14px 63px;
+    font-family:"Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+    margin: 30px 112px 30px 111px  ;
+}
+.clock__img{
+    display: flex;
+    margin: 10px 77px 0px 77px;
+}
+.clock__block{
+    border-radius: 16px;
+    width: 413px;
+    height: 453px;
+    background: #f8f9fa;
+
+}
+.nout__block{
+    border-radius: 16px;
+    width: 413px;
+    height: 453px;
+    background: #f8f9fa;
+}
+.mac__phon{
+    border-radius: 16px;
+    width: 413px;
+    height: 453px;
+    background: #f8f9fa;
+}
+@media(max-width:1250px){
+    .shop__titles{
+       flex-wrap: wrap;
+    }
+    .best__titles{
+        font-size: 35px;
+    }
+    .clock__titles,.nout__tiles,.macb__tiles{
+        font-size: 28px;
+    }
+}
+@media(max-width:1000px){
+    .shop__titles{
+        width: 312px;
+    }
+    .clock__block{
+        width: 312px;
+    }
+    .nout__block{
+        width: 312px;
+    }
+    .mac__phon{
+        width: 312px;
+    }
+ 
+ 
+}

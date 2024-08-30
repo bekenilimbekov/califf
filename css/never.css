@@ -1,0 +1,116 @@
+.never{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 61px;
+}
+.never__content{
+    border-radius: 16px;
+    align-items: center;
+    width: 935px;
+    height: 450px;
+    background: #dce5e2;
+}
+.never__cotolog{
+    display: flex;
+    flex-direction: column;
+    margin-top: 47px;
+}
+.never__title{
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+}
+.never__discription{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    margin-top: 9px;
+}
+.never__shoulder{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.never__label{
+    display: flex;
+    justify-content: center;
+}
+.never__img{
+    width: 233px;
+    height: 200px;
+}
+.never__place{
+    border: 1px solid #000;
+    border-radius: 54px 0 0 54px;
+    padding: 16px 184px 17px 32px;
+    background: #dce5e2;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}
+.never__btn{
+    border-radius: 0 200px 200px 0;
+    padding: 16px 33px 17px 32px;
+    background: #000;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+}
+@media(max-width:1250px){
+    .never__content{
+        margin: 15px;
+    }
+}
+@media(max-width:1025px){
+    .never__content{
+        width: 660px;
+        height: 395px;
+    }
+    .never__title{
+        font-size: 35px;
+    }
+}
+@media(max-width:753px){
+    .never__content{
+        width: 430px;
+        height: 420px;
+    }
+    .never__label{
+       width: 250px;
+       height: 50px;
+    }
+    .never__place{
+        width: 100px;
+    }
+    .never__discription{
+        margin: 10px;
+    }
+}
+@media(max-width:515px){
+    .never__content{
+        width: 350px;
+        height: 380px;
+    }
+    .never__place{
+        width: 50px;
+        margin-bottom: 50px;
+    }
+    .never__btn{
+        width: 30px;
+        margin-bottom: 50px;
+    }
+}
